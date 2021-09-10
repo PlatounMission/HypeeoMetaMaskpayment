@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Web3 Module Example</title>
+        <script defer src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+        <script defer src="./web3connect.js"></script>
+        <script defer src="./index.js"></script>
+
+    </head>
+
+    <body style="text-align: center; padding: 5vmin">
+        <div style="border: 1px solid black; padding: 1vmax; margin-bottom: 2vmin">
+            <h2>WEB3 CONNECT EXAMPLE</h2>
+
+            <h5>Connected as <span id="client-address"></span></h5>
+            <button id="connect-button">
+                CONNECT TO WEB3
+            </button>
+        </div>
+        <div style="border: 1px solid black; padding: 1vmax">
+            <h2>STRAIGHT TRANSFER EXAMPLE</h2>
+            <input placeholder="Recipient address" id="trf-recipient" style="width: 60%; padding: .5em" />
+            <button id="trf-button">
+                TRANSFER
+            </button>
+            <div>
+                TXHASH : <a target="_blank" id="tx-hash-link"><span id="tx-hash"></span></a>
+            </div>
+        </div>
+
+        
+
+
+    </body>
+</html>
